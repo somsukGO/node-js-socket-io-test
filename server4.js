@@ -31,7 +31,7 @@ io.on('connection', function (client) {
   });
 });
 
-var server_port = 3000;
+var server_port = 8085;
 server.listen(server_port, function (err) {
   if (err) throw err;
   console.log('Listening on port %d', server_port);
