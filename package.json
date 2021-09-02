@@ -4,13 +4,15 @@
   "description": "Learn socket.io",
   "main": "server2.js",
   "scripts": {
-    "dev": "nodemon server2.js"
+    "dev": "nodemon server4.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "socket.io": "^4.2.0"
+    "socket.io": "^2.3.0",
+    "http": "0.0.1-security",
+    "ws": "^8.2.1"
   }
 }
